@@ -1,4 +1,4 @@
-name: IPQ60XX-24.10(NOWIFI)
+name: IPQ60XX-ax5-24.10(NOWIFI)
 
 on:
   workflow_dispatch:
@@ -8,13 +8,13 @@ on:
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
   REPO_BRANCH: openwrt-24.10
-  CONFIG_FILE: configs/ipq60xx-nowifi.config
+  CONFIG_FILE: configs/ipq60xx-ax5-nowifi.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-24.10(NOWIFI)
+  FIRMWARE_TAG: ipq60xx-ax5(NOWIFI)
   TZ: Asia/Shanghai
 
 jobs:
